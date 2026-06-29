@@ -21,7 +21,7 @@ occurs — a human reviewer handles it from there.
 
 ## Architecture Diagram
 ```
-POST /submit
+             POST /submit
 
                     │
 
@@ -47,7 +47,7 @@ POST /submit
 
 │ Signal 1     │   │ Signal 2             │
 
-│ LLM Classifier│   │ Stylometric Heuristics│
+│LLM Classifier│   │ Stylometric Heuristics│
 
 │ (Groq)       │   │ (pure Python)        │
 
