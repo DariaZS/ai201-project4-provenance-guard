@@ -433,3 +433,8 @@ API runs at `http://127.0.0.1:5001`.
 | POST | `/submit` | Submit text for classification |
 | POST | `/appeal` | Appeal a classification |
 | GET | `/log` | View audit log (last 20 entries) |
+
+## Demo
+```
+https://youtu.be/R3MoYT5hc98
+```
